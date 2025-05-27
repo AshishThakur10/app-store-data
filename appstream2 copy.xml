@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components version="0.8" origin="flatpak">
+  <component type="desktop">
+    <id>app.authpass.AuthPass</id>
+    <name>Farland</name>
+    <summary>Password Manager: Keep your passwords safe across all platforms and devices</summary>
+    <developer_name>Herbert Poul</developer_name>
+    <description><p>Easily and securely keep track of all your Passwords!</p><p>AuthPass is a stand alone password manager with support for the popular and proven KeePass (kdbx 3.x AND kdbx 4.x) format. Store your passwords, share across all your devices and easily find them whenever you need to login.</p><ul><li>All your passwords in one place.</li><li>Generate secure random passwords for each of your accounts.</li><li>Keep track of your accounts across the web.</li><li>App available for Mac, iPhone, iPad, Android Phones and Tablets, Linux and Windows.</li><li>Open multiple password files at the same time (e.g. one for work, one for personal - or even share your password files with coworkers)</li><li>Open Source available on https://github.com/authpass/authpass/</li><li>Dark Theme</li></ul><p>&lt;em&gt;=== UNDER YOUR CONTROL ===&lt;/em&gt;</p><p>AuthPass stores all your passwords in the open Keepass format, exactly where you want it. It does not send your passwords to our servers. But AuthPass supports saving to:</p><ul><li>Any local content provider from Android</li><li>Native Google Drive Integration</li><li>Native Dropbox Integation</li><li>Native WebDAV support to store in your own NextCloud or OwnCloud (or similar)</li><li>Native Microsoft OneDrive integration</li></ul><p>&lt;em&gt;=== FULL FEATURED, NO ADS, NO SUBSCRIPTION ===&lt;/em&gt;</p><p>As an open source project there are no artificial feature restrictions, no ads and no requirement for payments.</p><p>&lt;em&gt;Contributions welcome and encouraged&lt;/em&gt; ;-) (Always looking for developers, translators, documentation writers, UI designer, etc. :) ), just join our discord channel: https://authpass.app/go/discord</p><p>&lt;em&gt;=== UNDER ACTIVE DEVELOPMENT ===&lt;/em&gt;</p><p>This is an open source project which is still under heavy development, adding features. We would love your feedback via email or on the issue tracker at https://github.com/authpass/authpass/issues/</p><p>Also join the community on our discord channel at https://authpass.app/go/discord</p></description>
+    <icon height="64" type="cached" width="64">app.authpass.AuthPass.png</icon>
+    <icon height="128" type="cached" width="128">app.authpass.AuthPass.png</icon>
+    <categories>
+      <category>Security</category>
+      <category>Utility</category>
+    </categories>
+    <kudos>
+      <kudo>HiDpiIcon</kudo>
+    </kudos>
+    <project_license>GPL-3.0-or-later</project_license>
+    <url type="bugtracker">https://github.com/authpass/authpass/issues</url>
+    <url type="donation">https://github.com/sponsors/hpoul</url>
+    <url type="homepage">https://authpass.app/</url>
+    <url type="translate">https://translate.authpass.app</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://data.authpass.app/data/screenshot_composition_small.png</image>
+        <image height="351" type="thumbnail" width="624">https://dl.flathub.org/repo/screenshots/app.authpass.AuthPass-stable/624x351/app.authpass.AuthPass-8e73a9934daf432df01694fc5aa494e5.png</image>
+        <image height="702" type="thumbnail" width="1248">https://dl.flathub.org/repo/screenshots/app.authpass.AuthPass-stable/1248x702/app.authpass.AuthPass-8e73a9934daf432df01694fc5aa494e5.png</image>
+        <image height="63" type="thumbnail" width="112">https://dl.flathub.org/repo/screenshots/app.authpass.AuthPass-stable/112x63/app.authpass.AuthPass-8e73a9934daf432df01694fc5aa494e5.png</image>
+        <image height="126" type="thumbnail" width="224">https://dl.flathub.org/repo/screenshots/app.authpass.AuthPass-stable/224x126/app.authpass.AuthPass-8e73a9934daf432df01694fc5aa494e5.png</image>
+        <image height="423" type="thumbnail" width="752">https://dl.flathub.org/repo/screenshots/app.authpass.AuthPass-stable/752x423/app.authpass.AuthPass-8e73a9934daf432df01694fc5aa494e5.png</image>
+      </screenshot>
+    </screenshots>
+    <content_rating type="oars-1.1"/>
+    <releases>
+      <release timestamp="1654819200" version="1.9.6_1904"/>
+    </releases>
+    <launchable type="desktop-id">app.authpass.AuthPass.desktop</launchable>
+  <metadata><value key="flathub::build::build_log_url">https://buildbot.flathub.org/#/builders/6/builds/97962</value>
+  </metadata>
+    <bundle type="flatpak" runtime="org.freedesktop.Platform/x86_64/23.08" sdk="org.freedesktop.Sdk/x86_64/23.08">app/app.authpass.AuthPass/x86_64/stable</bundle>
+  </component><component type="desktop-application">
+    <id>app.bbsync.BlackboardSync</id>
+    <name>Foo</name>
+    <summary>Automatic Syncing Of Your Blackboard Content</summary>
+    <summary xml:lang="es">Descarga contenido de Blackboard Learn</summary>
+    <project_license>GPL-2.0-only</project_license>
+    <description>
+      <p>A student favourite, now available on FlatHub!</p>
+      <p>Download all your content from Blackboard Learn to your device, without any intervention.</p>
+      <p>Sync content like text documents, spreadsheets and lecture slides, which you can later access offline.</p>
+      <p>More than 30 universities supported around the world.</p>
+    </description>
+    <developer>
+      <name>Jacob Sánchez</name>
+    </developer>
+    <developer_name>Jacob Sánchez</developer_name>
+    <launchable type="desktop-id">app.bbsync.BlackboardSync.desktop</launchable>
+    <icon height="48" type="cached" width="48">app.bbsync.BlackboardSync.png</icon>
+    <icon height="64" type="cached" width="64">app.bbsync.BlackboardSync.png</icon>
+    <icon height="64" scale="2" type="cached" width="64">app.bbsync.BlackboardSync.png</icon>
+    <icon height="128" type="remote" width="128">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/icons/128x128/app.bbsync.BlackboardSync.png</icon>
+    <icon height="128" type="cached" width="128">app.bbsync.BlackboardSync.png</icon>
+    <icon height="128" scale="2" type="remote" width="128">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/icons/128x128@2/app.bbsync.BlackboardSync.png</icon>
+    <icon height="128" scale="2" type="cached" width="128">app.bbsync.BlackboardSync.png</icon>
+    <icon type="stock">app.bbsync.BlackboardSync</icon>
+    <url type="homepage">https://github.com/sanjacob/BlackboardSync</url>
+    <url type="bugtracker">https://github.com/sanjacob/BlackboardSync/issues</url>
+    <url type="donation">https://github.com/sanjacob/BlackboardSync#show-your-support</url>
+    <categories>
+      <category>Education</category>
+      <category>Network</category>
+    </categories>
+    <screenshots>
+      <screenshot type="default">
+        <caption>Blackboard Sync lives in your system tray.</caption>
+        <image height="204" type="source" width="327">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/screenshots/image-1_orig.png</image>
+        <image height="139" type="thumbnail" width="224">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/screenshots/image-1_224x139@1.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Log in to your university or college.</caption>
+        <image height="770" type="source" width="532">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/screenshots/image-2_orig.png</image>
+        <image height="324" type="thumbnail" width="224">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/screenshots/image-2_224x324@1.png</image>
+      </screenshot>
+      <screenshot>
+        <caption>Be notified of downloads when they start.</caption>
+        <image height="120" type="source" width="380">https://dl.flathub.org/media/app/bbsync/BlackboardSync/9a7b2ce7a6c7194a97c1c259dacce2d8/screenshots/image-3_orig.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release timestamp="1729555200" type="stable" version="0.18.0">
+        <url>https://github.com/sanjacob/BlackboardSync/releases/tag/0.18.0</url>
+      </release>
+      <release timestamp="1728691200" type="stable" version="0.17.4">
+        <url>https://github.com/sanjacob/BlackboardSync/releases/tag/0.17.4</url>
+      </release>
+      <release timestamp="1726963200" type="stable" version="0.17.1">
+        <url>https://github.com/sanjacob/BlackboardSync/releases/tag/0.17.1</url>
+      </release>
+      <release timestamp="1726790400" type="stable" version="0.17.0">
+        <url>https://github.com/sanjacob/BlackboardSync/releases/tag/0.17.0</url>
+      </release>
+    </releases>
+    <content_rating type="oars-1.1"/>
+  <custom><value key="flathub::verification::verified">true</value>
+  <value key="flathub::verification::timestamp">1696410133</value>
+  <value key="flathub::verification::method">website</value>
+  <value key="flathub::verification::website">bbsync.app</value>
+  <value key="flathub::verification::login_is_organization">false</value>
+  <value key="flathub::build::build_log_url">https://buildbot.flathub.org/#/builders/6/builds/156476</value>
+  </custom>
+    <bundle type="flatpak" runtime="org.kde.Platform/x86_64/6.7" sdk="org.kde.Sdk/x86_64/6.7">app/app.bbsync.BlackboardSync/x86_64/stable</bundle>
+  </component>
+</components>
